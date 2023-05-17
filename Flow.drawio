@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T01:40:08.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="H5LW9k7XoVvHZi_syNAo" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T02:06:07.413Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="PZ9lil5LMqul8yv1dTHx" version="21.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1912" dy="1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -39,16 +39,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7-ifbfS82pvWHVfPcbau-5" value="int i = 0; i &amp;lt; UserList.lenght ; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7-ifbfS82pvWHVfPcbau-5" value="int i = 0; i &amp;lt; UserList.Count ; i++" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="240" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7-ifbfS82pvWHVfPcbau-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7-ifbfS82pvWHVfPcbau-11" target="7-ifbfS82pvWHVfPcbau-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7-ifbfS82pvWHVfPcbau-11" value="&lt;div&gt;Show welcome message&lt;/div&gt;&lt;div&gt;for the [i] user in the list&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7-ifbfS82pvWHVfPcbau-11" value="&lt;div&gt;Show welcome message&lt;/div&gt;&lt;div&gt;for the UserList.ElementAt(i)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="360" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7-ifbfS82pvWHVfPcbau-12" value="User[i].IsPremium?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7-ifbfS82pvWHVfPcbau-12" value="&lt;div&gt;UserList.ElementAt(i).&lt;/div&gt;&lt;div&gt;IsPremium?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="460" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7-ifbfS82pvWHVfPcbau-17" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7-ifbfS82pvWHVfPcbau-12">
@@ -88,7 +88,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7-ifbfS82pvWHVfPcbau-21" value="&lt;div&gt;Show ads&lt;/div&gt;&lt;div&gt;for the [i] user in the list&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7-ifbfS82pvWHVfPcbau-21" value="&lt;div&gt;Show ads&lt;/div&gt;&lt;div&gt;for the UserList.ElementAt(i)&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="580" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
